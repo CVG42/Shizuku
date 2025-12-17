@@ -1,9 +1,0 @@
-using UnityEngine;
-
-namespace Virus
-{
-    public class #SCRIPTNAME# : MonoBehaviour
-    {
-        
-    }
-}
