@@ -15,4 +15,24 @@ MonoBehaviour:
   _id: 1
   _plantName: Test
   _plantDescription: Test
-  _plantStates: []
+  _plantStates:
+  - state: 0
+    sprite: {fileID: 0}
+    clip: {fileID: 0}
+    wateringsRequired: 1
+  - state: 1
+    sprite: {fileID: 0}
+    clip: {fileID: 0}
+    wateringsRequired: 1
+  - state: 2
+    sprite: {fileID: 0}
+    clip: {fileID: 0}
+    wateringsRequired: 1
+  - state: 3
+    sprite: {fileID: 0}
+    clip: {fileID: 0}
+    wateringsRequired: 1
+  - state: 4
+    sprite: {fileID: 0}
+    clip: {fileID: 0}
+    wateringsRequired: 1

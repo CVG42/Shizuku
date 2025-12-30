@@ -6,6 +6,7 @@ namespace Shizuku
     {
         PlantState CurrentPlantState { get; }
 
+        event Action OnWatered;
         event Action<PlantDefinition> OnPlantCompleted;
 
         double TimeUntilNextWater();

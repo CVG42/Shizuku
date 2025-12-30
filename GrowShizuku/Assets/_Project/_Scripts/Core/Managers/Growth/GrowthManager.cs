@@ -14,6 +14,7 @@ namespace Shizuku.Managers
         [SerializeField] private PlantDatabase _plantDatabase;
         [SerializeField] private PlantDefinition _currentPlant;
 
+        public event Action OnWatered;
         public event Action<PlantDefinition> OnPlantCompleted;
 
         private double _nextWaterTime;
@@ -52,6 +53,7 @@ namespace Shizuku.Managers
             }
 
             _nextWaterTime = TimeService.Now + _wateringCooldown;
+            OnWatered?.Invoke();
             SaveState();
         }
 

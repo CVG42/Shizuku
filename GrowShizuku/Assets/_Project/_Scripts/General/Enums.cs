@@ -6,3 +6,9 @@ public enum PlantState
     Mature,
     Complete
 }
+
+public enum HydrationState
+{
+    Normal,
+    Dry
+}
